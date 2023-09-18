@@ -1,0 +1,38 @@
+
+
+
+#  Bu proje, cimri.com web sitesinde belirli bir ürünün zaman içindeki fiyat değişikliklerini
+#  test etmek için geliştirilmiştir. Projede Cucumber, Selenium WebDriver ve TestNG kullanılarak web
+#  sitesine otomasyon testleri uygulanmış ve bu testler sonucunda ürünün fiyat
+#  dalgalanmaları analiz edilmiştir. Projede ayrıca Apache POI kütüphanesi kullanılarak elde edilen
+# fiyat değişimleri ve ürün özellikleri Excel dosyasına aktarılmıştır.
+#  Proje, her senaryo çalıştırıldığında veya senaryo başarılı veya başarısız olsa bile ekran görüntüsü alır ve bu görüntüyü saklar.
+# Senaryoların  çalıştırıldığı takvim, saat ve statü durumları Excel Report klasörüne otomatik olarak yansıtılmaktadır.
+
+#  PROJEDE YER ALAN SENARYOLAR:
+
+#  Web sitesine git.
+#  Web sitesi URL'sini doğrula.
+#  Giriş modülüne tıkla.
+#  E-posta ve şifreyi gir.
+#  Giriş düğmesine tıkla.
+#  Rastgele bir kategori seç.
+#  "Fiyatı Düşenler"e tıkla.
+#  İlk ürüne tıkla.
+#  Belirli bir dönem içindeki en yüksek fiyatı doğrula.
+#  Belirli bir dönem içindeki en düşük fiyatı doğrula.
+#  Şu anki en düşük fiyatı doğrula.
+#  ürünün fiyat dalgalanmalarını Excel dosyasına aktar.
+#  Ürünün özelliklerini bir Excel dosyasına aktar.
+#  En ucuz fiyatlı mağazaya git.
+#  Yönlendirilen mağazanın URL'sini doğrula ve önceki pencereye geri dön.
+#  Oturumu kapat.
+
+#  KULLANILAN TEKNOLOJİLER VE ARAÇLAR:
+#
+#  Cucumber: Senaryo yönetimi ve test raporlama.
+#  Selenium WebDriver: Web otomasyon testleri için kullanılmıştır.
+#  TestNG: Test senaryolarının yönetimi ve paralel çalıştırılması için kullanılmıştır.
+#  Apache POI: Excel verilerini okuma ve yazma işlemleri için kullanılmıştır.
+#  XML: Paralel testleri yönetmek için kullanılmıştır.
+
